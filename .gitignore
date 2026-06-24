@@ -1,3 +1,9 @@
+# build artifacts
 /keyflare
+linux/keyflare
 *.o
+.build/
+macos/.build/
+
+# local agent config — never publish
 .claude/
